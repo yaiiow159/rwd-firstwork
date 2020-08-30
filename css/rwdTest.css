@@ -106,8 +106,8 @@ body{
    flex-direction: column;
    align-items: stretch;
  }
- .head-logo a{
-   margin: 10px auto;
+  .header .head-logo a{
+   margin: 20px auto;
  }
   .header-list {
       flex-wrap: wrap;
@@ -117,9 +117,6 @@ body{
     color: rgb(34, 111, 34);
     transition: all .5s;
     border-bottom:none;
-  }
-  .header-list{
-    max-width: 100%;
   }
   .header-list li{
     width: 50%;
@@ -172,7 +169,7 @@ body{
   .course-item{
     width: 90%;
     padding: 20px 40px;
-    margin-bottom: 30px;
+    margin-bottom: 5%;
   }
   .item-jq> ul,.item-jq h4{
     position: relative;
